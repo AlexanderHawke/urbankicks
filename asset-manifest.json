@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/urbankicks/static/css/main.6e572e45.css",
+    "main.js": "/urbankicks/static/js/main.3446d37d.js",
+    "index.html": "/urbankicks/index.html",
+    "main.6e572e45.css.map": "/urbankicks/static/css/main.6e572e45.css.map",
+    "main.3446d37d.js.map": "/urbankicks/static/js/main.3446d37d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e572e45.css",
+    "static/js/main.3446d37d.js"
+  ]
+}

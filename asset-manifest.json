@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/urbankicks/static/css/main.6e572e45.css",
-    "main.js": "/urbankicks/static/js/main.3446d37d.js",
+    "main.css": "/urbankicks/static/css/main.91a64187.css",
+    "main.js": "/urbankicks/static/js/main.064bc682.js",
+    "static/media/shoe2Image.jpg": "/urbankicks/static/media/shoe2Image.658f869ec0e9b8d4dfa2.jpg",
+    "static/media/shoe3Image.jpg": "/urbankicks/static/media/shoe3Image.43f53a7aca57301534ec.jpg",
+    "static/media/shoe9Image.png": "/urbankicks/static/media/shoe9Image.99769abed1e100da78cf.png",
+    "static/media/shoe10Image.png": "/urbankicks/static/media/shoe10Image.4396ab8977bdbfe18b16.png",
+    "static/media/shoe4Image.png": "/urbankicks/static/media/shoe4Image.b84f7523171649c602ed.png",
+    "static/media/shoe7Image.png": "/urbankicks/static/media/shoe7Image.f2e09d7410352e1db0c6.png",
+    "static/media/shoe8Image.jpg": "/urbankicks/static/media/shoe8Image.8e630b6c041a5e06814d.jpg",
+    "static/media/shoe6Image.png": "/urbankicks/static/media/shoe6Image.061c36ce972058314503.png",
+    "static/media/welcomePageShoeModel.jpg": "/urbankicks/static/media/welcomePageShoeModel.29b980f3e59658a9ad86.jpg",
+    "static/media/shoe1Image.jpg": "/urbankicks/static/media/shoe1Image.af14deaa8124b2fd7e64.jpg",
+    "static/media/shoe5Image.jpg": "/urbankicks/static/media/shoe5Image.765901ab84ce6c5d3325.jpg",
     "index.html": "/urbankicks/index.html",
-    "main.6e572e45.css.map": "/urbankicks/static/css/main.6e572e45.css.map",
-    "main.3446d37d.js.map": "/urbankicks/static/js/main.3446d37d.js.map"
+    "main.91a64187.css.map": "/urbankicks/static/css/main.91a64187.css.map",
+    "main.064bc682.js.map": "/urbankicks/static/js/main.064bc682.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e572e45.css",
-    "static/js/main.3446d37d.js"
+    "static/css/main.91a64187.css",
+    "static/js/main.064bc682.js"
   ]
 }

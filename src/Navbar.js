@@ -1,23 +1,23 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1> Urban Kicks </h1>
+            <h1 className="title"> Urban Kicks </h1>
             <div className="links">
                 <Link to="/"> Home </Link>
-                <Link to="/shop"> Mens </Link>
-                <Link to="/shop"> Womens </Link>
-                <Link to="/shop"> Kids </Link>
-                <Link to="/shop"> Featured </Link>
-                <Link to="/shop"> 
-                    <FontAwesomeIcon icon={ faBagShopping }></FontAwesomeIcon>
-                </Link>
+                <Link to={{ pathname: "/shop", state: { gender: "mens" } }}> Mens </Link>
+                <Link to={{ pathname: "/shop", state: { gender: "womens" } }}> Womens </Link>
+                <Link to={{ pathname: "/shop", state: { gender: "kids" } }}> Kids </Link>
+                <Link to="/reviews"> Reviews </Link>
             </div>
+            <Link to="/cart" className="cart-link">
+                <FontAwesomeIcon className="cart-icon" icon={ faCartShopping } ></FontAwesomeIcon>
+            </Link>
         </nav>
      );
 }
- 
+
 export default Navbar;

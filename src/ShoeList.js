@@ -1,23 +1,28 @@
+import React from 'react';
+import { Shoe } from './Shoe'
+
 const ShoeList = (props) => { // const ShoeList = ({ shoes, title }) => { Can also do this if you only want certain props.
     
     const shoes = props.shoes;
-    const title = props.title;
-    const handleDelete = props.handleDelete;
+    console.log(shoes);
 
-    return ( 
-        <div className="shoe-list">
-            <h2> {title} </h2>
-            {shoes.map((shoe) => (
-                <div className="shoe-preview" key = {shoe.id}>
-                    <h2>{shoe.title}</h2>
-                    <p>Description: {shoe.description}</p>
-                    <p>Created by: {shoe.author}</p>
-                    <br/>
-                    <button onClick = {() => handleDelete(shoe.id)}>Delete Shoe</button>
-                </div>
-            ))}
-        </div>
-     );
+    if (shoes.length === 0) {
+        return (
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+                <strong style={{ color: '#f1356d', textAlign: 'center', fontSize: '24px' }}>
+                    Sorry, there are no shoes with these specifications
+                </strong>
+            </div>
+        );
+    } else {
+        return ( 
+            <div className="shoe-grid">
+                {shoes.map((shoe) => (
+                    <Shoe data={shoe}/>
+                ))}
+            </div>
+         );
+    }
 }
  
 export default ShoeList;

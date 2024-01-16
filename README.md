@@ -1,3 +1,5 @@
+To Access the website please navigate to https://alexanderhawke.github.io/urbankicks/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
